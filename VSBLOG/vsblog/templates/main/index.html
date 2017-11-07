@@ -1,0 +1,38 @@
+<!Doctype html>
+<html>
+
+<head>
+<title>V&S</title>
+<style>
+figure{
+	display:inline-block;
+	vertical-align:top;
+	width:210px;
+	margin:0 10px 10px 10px;
+	
+figure img{
+	border:1px solid #666;
+	background-color:#FFF;
+	padding:4px;
+	}
+	
+figcaption{
+	font:1.1em/normal Arial,Helvetica,sans-serif;
+	text-align:center;
+	margin:10px 0 0 0;
+}
+</style>
+</head>
+
+<body>
+<figcaption>
+<figure>
+<img src="{{ url_for('static',filename='images/10.jpeg') }}" width=203 height=250>
+</figure>
+<figure>
+<img src="{{ url_for('static',filename='images/9.jpeg') }}" width=203 height=250>
+</figure>
+</figcaption>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+html{
+	padding-top:25px;
+}
+
+
+h1{
+	color:blue;
+	text-align:center;
+	-webkit-transition-property:color;
+	-moz-transition-property:color;
+	-o-transition-property:color;;
+	-ms-transition-property:color;
+	transition-property:color;
+	-webkit-transition-duration:1s;
+	-moz-transition-duration:1s;
+	-o-transition-duration:1s;
+	-ms-transition-duration:1s;
+	transition-duration:1s;
+}
+
+h1:hover{
+	color:pink;
+}
+
+ul{
+}
+
+.nav{
+}
+
+#VorS{
+	position:absolute;
+}
+#VorS.img{
+	display:block;
+}
+
+#show_pics{
+
+}
+
+#tail{
+}
+
+
+
